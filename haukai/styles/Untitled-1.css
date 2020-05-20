@@ -103,7 +103,7 @@
 }
 
 /* Create two equal columns that float next to each other */
-.menucolumn {
+.column {
     float: left;
     width: 50%;
     height: 20vw;
