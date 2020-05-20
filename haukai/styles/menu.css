@@ -92,23 +92,63 @@
     }
 }
 
-/* Create four equal columns that float next to each other */
-.footercolumn {
-    float: left;
-    width: 25%;
-    height: 10.5vw;
-    padding: 0.5vw;
-    background-color:black;
-    color: white;
-}
 
 /* Create two equal columns that float next to each other */
 .menucolumn {
-    float: left;
+    float: center;
+    width: 50%;
+    height: 25vw;
+    padding: 0.5vw;
+    margin-left: 25%;
+    background-color: lightyellow;
+}
+
+.appetizercolumn {
+    float: center;
     width: 50%;
     height: 20vw;
     padding: 0.5vw;
+    margin-left: 25%;
     background-color: lightyellow;
+}
+
+.dessertcolumn {
+    float: center;
+    width: 50%;
+    height: 18vw;
+    padding: 0.5vw;
+    margin-left: 25%;
+    background-color: lightyellow;
+}
+
+.beveragecolumn {
+    float: center;
+    width: 50%;
+    height: 35vw;
+    padding: 0.5vw;
+    margin-left: 25%;
+    background-color: lightyellow;
+}
+
+.menutable, th, td {
+    text-align: center;
+    font-size: 1vw;
+    color: black;
+    border: none;
+    width: 100%; 
+}
+
+.menudescription {
+    text-align: center;
+    font-size: 0.8vw;
+    color: darkgreen;
+}
+
+.menubeverage {
+    text-align: center;
+    font-size: 0.6vw;
+    border: none;
+    width: 100%;
 }
 
 /* Clear floats after the columns */
@@ -124,27 +164,6 @@
     padding: 10px;
 }
 
-.bgimg {
-    background-image: url("/images/image3.jpg");
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-.img {
-    float: center;
-    display: block;
-    max-width: 100%;
-}
 
 body, h1, h3, h5 {font-family: "Raleway", sans-serif;}
 body, html {height: 100%;}
-
-.reviews {
-    float: center;
-    text-align: center;
-    background-color: lightgray;
-    color: black;
-    padding: 10px;
-    font-size: 1.5vw;
-}
