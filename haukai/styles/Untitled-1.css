@@ -93,12 +93,21 @@
 }
 
 /* Create four equal columns that float next to each other */
-.column {
+.footercolumn {
     float: left;
     width: 25%;
     height: 10.5vw;
     padding: 0.5vw;
-    background-color: lightcoral;
+    background-color:black;
+    color: white;
+}
+
+/* Create two equal columns that float next to each other */
+.menucolumn {
+    float: left;
+    width: 50%;
+    height: 20vw;
+    padding: 1vw;
 }
 
 /* Clear floats after the columns */
@@ -115,18 +124,26 @@
 }
 
 .bgimg {
-    background-image: url("image3.jpg");
+    background-image: url("/images/image3.jpg");
     min-height: 100%;
     background-position: center;
     background-size: cover;
 }
 
 .img {
-    float: left;
+    float: center;
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
-body, h1, h5 {font-family: "Raleway", sans-serif;}
+body, h1, h3, h5 {font-family: "Raleway", sans-serif;}
 body, html {height: 100%;}
 
+.reviews {
+    float: center;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    font-size: 1.5vw;
+}
