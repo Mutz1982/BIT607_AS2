@@ -7,7 +7,8 @@
 .header {
     background-color:black;
     text-align: center;
-    padding: 20px;
+    padding: 0.5vw;
+    font-size: 1.5vw;
     color: white;
 }
 
@@ -91,12 +92,23 @@
     }
 }
 
+/* Create four equal columns that float next to each other */
+.footercolumn {
+    float: left;
+    width: 25%;
+    height: 10.5vw;
+    padding: 0.5vw;
+    background-color:black;
+    color: white;
+}
+
 /* Create two equal columns that float next to each other */
 .column {
     float: left;
     width: 50%;
-    padding: 15px;
-    background-color: yellow;
+    height: 20vw;
+    padding: 0.5vw;
+    background-color: lightyellow;
 }
 
 /* Clear floats after the columns */
@@ -107,22 +119,37 @@
 }
 
 .footer {
-    background-color: red;
+    background-color: grey;
     text-align: center;
     padding: 10px;
 }
 
 .bgimg {
-    background-image: url("image3.jpg");
+    background-image: url("/images/image3.jpg");
     min-height: 100%;
     background-position: center;
     background-size: cover;
 }
 
 .img {
-    float: left;
+    float: center;
     display: block;
+    max-width: 100%;
 }
 
-body, h1, h5 {font-family: "Raleway", sans-serif;}
+body, h1, h3, h5 {font-family: "Raleway", sans-serif;}
 body, html {height: 100%;}
+
+.reviews {
+    float: center;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    font-size: 1.5vw;
+}
+
+iframe {
+    width: 700px;
+    height: 520px;
+}
