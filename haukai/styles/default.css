@@ -145,8 +145,8 @@ body, html {height: 100%;}
     text-align: center;
     background-color: lightgray;
     color: black;
-    padding: 10px;
-    font-size: 1.5vw;
+    padding: none;
+    font-size: 1vw;
 }
 
 iframe {
