@@ -7,7 +7,7 @@
 .header {
     background-color:black;
     text-align: center;
-    padding: 0.5vw;
+    padding: 5px;
     font-size: 1.5vw;
     color: white;
 }
@@ -54,7 +54,7 @@
 .topnav input[type=text]{
     padding: 6px;
     margin-top: 8px;
-    font-size: 17px;
+    font-size: 1vw;
     border: none;
 }
 
@@ -65,7 +65,7 @@
     margin-top: 8px;
     margin-right: 16px;
     background: white;
-    font-size: 17px;
+    font-size: 1vw;
     border: none;
     cursor: pointer;
 }
@@ -85,12 +85,13 @@
         text-align: left;
         width: 100%;
         margin: 0;
-        padding: 14px;
+        padding: 10px;
     }
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
 }
+
 
 /* Create four equal columns that float next to each other */
 .footercolumn {
@@ -149,7 +150,7 @@ body, html {height: 100%;}
     font-size: 1vw;
 }
 
-iframe {
-    width: 700px;
-    height: 520px;
+#widget {
+    margin-top: 10px;
+    margin-left: 33%;
 }

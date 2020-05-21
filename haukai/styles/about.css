@@ -93,10 +93,10 @@
 }
 
 /* Create two equal columns that float next to each other */
-.column {
+.aboutcolumn {
     float: left;
     width: 50%;
-    height: 400px;
+    height: 680px;
     padding: 0.5vw;
     background-color: lightseagreen;
 }
@@ -124,7 +124,7 @@ iframe {
 body, h1, h3, h5 {font-family: "Raleway", sans-serif;}
 body, html {height: 100%;}
 
-.contactdetails {
+.aboutdetails {
     text-align: left;
     font-size: 1vw;
 }
