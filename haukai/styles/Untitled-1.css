@@ -148,3 +148,8 @@ body, html {height: 100%;}
     padding: 10px;
     font-size: 1.5vw;
 }
+
+iframe {
+    width: 700px;
+    height: 520px;
+}

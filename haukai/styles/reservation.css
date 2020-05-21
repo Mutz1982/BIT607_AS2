@@ -94,61 +94,12 @@
 
 
 /* Create two equal columns that float next to each other */
-.menucolumn {
-    float: center;
-    width: 50%;
-    height: 450px;
-    padding: 0.5vw;
-    margin-left: 25%;
-    background-color: lightyellow;
-}
-
-.appetizercolumn {
-    float: center;
-    width: 50%;
-    height: 400px;
-    padding: 0.5vw;
-    margin-left: 25%;
-    background-color: lightyellow;
-}
-
-.dessertcolumn {
-    float: center;
-    width: 50%;
-    height: 320px;
-    padding: 0.5vw;
-    margin-left: 25%;
-    background-color: lightyellow;
-}
-
-.beveragecolumn {
-    float: center;
-    width: 50%;
-    height: 1000px;
-    padding: 0.5vw;
-    margin-left: 25%;
-    background-color: lightyellow;
-}
-
-.menutable, th, td {
-    text-align: center;
-    font-size: 1vw;
-    color: black;
-    border: none;
-    width: 100%; 
-}
-
-.menudescription {
-    text-align: center;
-    font-size: 0.8vw;
-    color: darkgreen;
-}
-
-.menubeverage {
-    text-align: center;
-    font-size: 0.6vw;
-    border: none;
+.column {
+    float: left;
     width: 100%;
+    height: 200px;
+    padding: 0.5vw;
+    background-color: lightyellow;
 }
 
 /* Clear floats after the columns */
@@ -164,6 +115,31 @@
     padding: 10px;
 }
 
+.bgimg {
+    background-image: url("/images/image3.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img {
+    float: center;
+    display: block;
+    max-width: 100%;
+}
+
+.openinghours {
+    text-align: center;
+}
 
 body, h1, h3, h5 {font-family: "Raleway", sans-serif;}
 body, html {height: 100%;}
+
+iframe {
+    width: 700px;
+    height: 520px;
+}
+
+table, th, td {
+    width: 100%; 
+}

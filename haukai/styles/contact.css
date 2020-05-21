@@ -92,63 +92,13 @@
     }
 }
 
-
 /* Create two equal columns that float next to each other */
-.menucolumn {
-    float: center;
+.column {
+    float: left;
     width: 50%;
-    height: 450px;
-    padding: 0.5vw;
-    margin-left: 25%;
+    height: 20vw;
+    padding: 0;
     background-color: lightyellow;
-}
-
-.appetizercolumn {
-    float: center;
-    width: 50%;
-    height: 400px;
-    padding: 0.5vw;
-    margin-left: 25%;
-    background-color: lightyellow;
-}
-
-.dessertcolumn {
-    float: center;
-    width: 50%;
-    height: 320px;
-    padding: 0.5vw;
-    margin-left: 25%;
-    background-color: lightyellow;
-}
-
-.beveragecolumn {
-    float: center;
-    width: 50%;
-    height: 1000px;
-    padding: 0.5vw;
-    margin-left: 25%;
-    background-color: lightyellow;
-}
-
-.menutable, th, td {
-    text-align: center;
-    font-size: 1vw;
-    color: black;
-    border: none;
-    width: 100%; 
-}
-
-.menudescription {
-    text-align: center;
-    font-size: 0.8vw;
-    color: darkgreen;
-}
-
-.menubeverage {
-    text-align: center;
-    font-size: 0.6vw;
-    border: none;
-    width: 100%;
 }
 
 /* Clear floats after the columns */
@@ -162,8 +112,16 @@
     background-color: grey;
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
 }
 
+iframe {
+    object-position: 100% 10%;
+    width: 700px;
+    height: 520px;
+}
 
 body, h1, h3, h5 {font-family: "Raleway", sans-serif;}
 body, html {height: 100%;}
+
+
