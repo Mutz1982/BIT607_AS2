@@ -130,6 +130,7 @@
 
 .openinghours {
     text-align: center;
+    font-size: 1vw;
 }
 
 body, h1, h3, h5 {font-family: "Raleway", sans-serif;}
@@ -138,6 +139,12 @@ body, html {height: 100%;}
 iframe {
     width: 700px;
     height: 520px;
+    border: 1px solid black;
+}
+
+#widget {
+    margin-top: 10px;
+    margin-left: 33%;
 }
 
 table, th, td {
